@@ -15,7 +15,7 @@ process.argv.forEach((val, index) => {
             last = val;
         }
         else if (last === '-i') {
-            input = fs.readFileSync(__dirname + '/' + val, 'utf-8');
+            input = fs.readFileSync(process.cwd() + '/' + val, 'utf-8');
         }
         else if (last === '-o') {
             out = val;
@@ -89,5 +89,5 @@ if (out === 'now') {
     eval(output);
 }
 else {
-    fs.writeFileSync(__dirname + '/' + out, output, 'utf-8');
+    fs.writeFileSync(process.cwd() + '/' + out, output, 'utf-8');
 }
