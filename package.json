@@ -1,7 +1,7 @@
 {
   "name": "node-brainfuck-compiler",
   "version": "1.0.0",
-  "description": "Brainfuck compiler for Node.js.",
+  "description": "Brainfuck CLI compiler for Node.js.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,20 @@
     "brainfuck",
     "brainfuck-compiler"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadkit/node-brainfuck-compiler.git"
+  },
   "author": "Daniele Molinari",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Sadkit/node-brainfuck-compiler/issues"
+  },
+  "homepage": "https://github.com/Sadkit/node-brainfuck-compiler#readme",
   "dependencies": {
     "prompt-sync": "^4.1.6"
+  },
+  "bin": {
+    "brainfuck-compiler": "./index.js"
   }
 }
