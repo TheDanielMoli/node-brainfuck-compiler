@@ -4,7 +4,7 @@
 [npm-url]: https://www.npmjs.com/package/node-brainfuck-compiler
 
 
-A CLI Brainfuck compiler in Node.js. Brainfuck is an esoteric programming language. Find out more on [Wikipedia](https://en.wikipedia.org/wiki/Brainfuck).
+A CLI Brainfuck to Node.js compiler, written in Node.js. Brainfuck is an esoteric programming language (or esolang). It's a Turing-complete minimalist language and can be thought as software art or as a joke, depending on how you want to see it. Find out more on [Wikipedia](https://en.wikipedia.org/wiki/Brainfuck).
 
 ## Installation
 
