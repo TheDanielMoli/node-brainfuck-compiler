@@ -1,0 +1,18 @@
+{
+  "name": "node-brainfuck-compiler",
+  "version": "1.0.0",
+  "description": "Brainfuck compiler for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brainfuck",
+    "brainfuck-compiler"
+  ],
+  "author": "Daniele Molinari",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "prompt-sync": "^4.1.6"
+  }
+}
